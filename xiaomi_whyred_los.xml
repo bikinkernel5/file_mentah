@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="los" revision="lineage-20" />
+	<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="los" revision="lineage-20" />
+
+
+	<project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="los" revision="lineage-20" />
+
+
+	<project path="vendor/xiaomi/whyred" name="proprietary_vendor_xiaomi_whyred" remote="them" revision="lineage-20" />
+	<project path="vendor/xiaomi/sdm660-common" name="proprietary_vendor_xiaomi_sdm660-common" remote="them" revision="lineage-20" />
+
+
+	<project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" revision="main" />
+
+
+	<remote name="los" fetch="https://github.com/LineageOS" />
+	<remote name="them" fetch="https://github.com/TheMuppets" />
+
+</manifest>
+

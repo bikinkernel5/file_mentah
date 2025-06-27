@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="hybris-boot" name="hybris-boot" remote="hal" revision="master" />
+
+	<project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="los" revision="lineage-20" />
+	<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="los" revision="lineage-20" />
+
+
+	<project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="los" revision="lineage-20" />
+
+
+	<project path="vendor/xiaomi/whyred" name="proprietary_vendor_xiaomi_whyred" remote="them" revision="lineage-20" />
+	<project path="vendor/xiaomi/sdm660-common" name="proprietary_vendor_xiaomi_sdm660-common" remote="them" revision="lineage-20" />
+
+
+	<project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" revision="lineage-20.0" />
+	<project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" revision="main" />
+	<project path="external/openssh" name="android_external_openssh" remote="los" revision="lineage-20.0" />
+	<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-20.0" />
+	<project path="external/nano" name="android_external_nano" remote="los" revision="lineage-20.0" />
+	<project path="external/htop" name="android_external_htop" remote="los" revision="lineage-20.0" />
+	<project path="external/rsync" name="android_external_rsync" remote="los" revision="lineage-20.0" />
+	<project path="external/unrar" name="android_external_unrar" remote="los" revision="lineage-20.0" />
+	<project path="external/vim" name="android_external_vim" remote="los" revision="lineage-20.0" />
+
+
+	<project path="packages/apps/SimpleSettingsConfig" name="android_packages_apps_SimpleSettingsConfig" remote="los" revision="lineage-20.0" />
+
+
+	<remote name="los" fetch="https://github.com/LineageOS" />
+	<remote name="them" fetch="https://github.com/TheMuppets" />
+
+</manifest>
+
